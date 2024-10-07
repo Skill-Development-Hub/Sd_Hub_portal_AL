@@ -1,0 +1,40 @@
+mat-card {
+    max-width: 400px; /* Set a max width for the card */
+    margin: 2rem auto; /* Center the card on the page */
+    padding: 2rem; /* Add padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 8px; /* Round the corners */
+    background-color: #fff; /* Background color of the card */
+}
+
+h2 {
+    text-align: center; /* Center the title */
+    color: #3f51b5; /* Use primary color for the title */
+    margin-bottom: 1.5rem; /* Space below the title */
+}
+
+mat-form-field {
+    width: 100%; /* Make form fields take full width */
+    margin-bottom: 1rem; /* Space between fields */
+}
+
+button {
+    width: 100%; /* Make the button take full width */
+    margin-top: 1rem; /* Space above the button */
+}
+
+mat-label {
+    color: #3f51b5; /* Color for the label */
+}
+
+input {
+    font-size: 1rem; /* Adjust input font size */
+}
+
+mat-form-field.mat-form-field {
+    transition: all 0.3s ease; /* Smooth transition for field focus */
+}
+
+mat-form-field.mat-form-field-should-float .mat-form-field-label {
+    color: #3f51b5; /* Change label color on focus */
+}
